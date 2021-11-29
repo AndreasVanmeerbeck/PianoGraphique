@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4cfc94b-e50a-4104-9f31-6eebc31097d3" name="Changes" comment="???">
+    <list default="true" id="d4cfc94b-e50a-4104-9f31-6eebc31097d3" name="Changes" comment="J'ai un lien qui marche">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -14,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -30,6 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -56,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1638190195122</updated>
       <workItem from="1638190196266" duration="924000" />
-      <workItem from="1638191135617" duration="100000" />
+      <workItem from="1638191135617" duration="5580000" />
     </task>
     <task id="LOCAL-00001" summary="add HTML">
       <created>1638190236905</created>
@@ -79,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638191179300</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="J'ai un lien qui marche">
+      <created>1638191257443</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638191257443</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +109,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add HTML" />
     <MESSAGE value="???" />
-    <option name="LAST_COMMIT_MESSAGE" value="???" />
+    <MESSAGE value="J'ai un lien qui marche" />
+    <option name="LAST_COMMIT_MESSAGE" value="J'ai un lien qui marche" />
   </component>
 </project>
