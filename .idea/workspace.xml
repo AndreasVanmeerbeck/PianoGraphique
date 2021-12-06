@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4cfc94b-e50a-4104-9f31-6eebc31097d3" name="Changes" comment="J'ai un lien qui marche">
+    <list default="true" id="d4cfc94b-e50a-4104-9f31-6eebc31097d3" name="Changes" comment="J'ai un peu foutu la merde">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tableau1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tableau1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -58,7 +63,9 @@
       <option name="presentableId" value="Default" />
       <updated>1638190195122</updated>
       <workItem from="1638190196266" duration="924000" />
-      <workItem from="1638191135617" duration="5580000" />
+      <workItem from="1638191135617" duration="5869000" />
+      <workItem from="1638792571015" duration="150000" />
+      <workItem from="1638792731474" duration="9272000" />
     </task>
     <task id="LOCAL-00001" summary="add HTML">
       <created>1638190236905</created>
@@ -88,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638191257443</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="J'ai un peu foutu la merde">
+      <created>1638196907120</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638196907120</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +124,7 @@
     <MESSAGE value="add HTML" />
     <MESSAGE value="???" />
     <MESSAGE value="J'ai un lien qui marche" />
-    <option name="LAST_COMMIT_MESSAGE" value="J'ai un lien qui marche" />
+    <MESSAGE value="J'ai un peu foutu la merde" />
+    <option name="LAST_COMMIT_MESSAGE" value="J'ai un peu foutu la merde" />
   </component>
 </project>
