@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4cfc94b-e50a-4104-9f31-6eebc31097d3" name="Changes" comment="J'ai un peu foutu la merde">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tableau1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tableau1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.jpg" beforeDir="false" />
-    </list>
+    <list default="true" id="d4cfc94b-e50a-4104-9f31-6eebc31097d3" name="Changes" comment="Add BG + Error + detection KB" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +58,7 @@
       <workItem from="1638190196266" duration="924000" />
       <workItem from="1638191135617" duration="5869000" />
       <workItem from="1638792571015" duration="150000" />
-      <workItem from="1638792731474" duration="9272000" />
+      <workItem from="1638792731474" duration="9330000" />
     </task>
     <task id="LOCAL-00001" summary="add HTML">
       <created>1638190236905</created>
@@ -102,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638196907120</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add BG + Error + detection KB">
+      <created>1638802637949</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638802637949</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +125,7 @@
     <MESSAGE value="???" />
     <MESSAGE value="J'ai un lien qui marche" />
     <MESSAGE value="J'ai un peu foutu la merde" />
-    <option name="LAST_COMMIT_MESSAGE" value="J'ai un peu foutu la merde" />
+    <MESSAGE value="Add BG + Error + detection KB" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add BG + Error + detection KB" />
   </component>
 </project>
