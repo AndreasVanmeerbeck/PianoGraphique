@@ -29,5 +29,3 @@ let gameConfig = {
 };
 let game = new Phaser.Game(gameConfig);
 
-var keyA;
-

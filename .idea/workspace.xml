@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4cfc94b-e50a-4104-9f31-6eebc31097d3" name="Changes" comment="Add BG + Error + detection KB" />
+    <list default="true" id="d4cfc94b-e50a-4104-9f31-6eebc31097d3" name="Changes" comment="Add BG + Error + detection KB">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tableau1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tableau1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main1.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../clavier" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -59,6 +63,7 @@
       <workItem from="1638191135617" duration="5869000" />
       <workItem from="1638792571015" duration="150000" />
       <workItem from="1638792731474" duration="9330000" />
+      <workItem from="1639764542446" duration="8635000" />
     </task>
     <task id="LOCAL-00001" summary="add HTML">
       <created>1638190236905</created>
