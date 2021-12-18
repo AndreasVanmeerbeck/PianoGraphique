@@ -1,136 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4cfc94b-e50a-4104-9f31-6eebc31097d3" name="Changes" comment="Add BG + Error + detection KB">
+    <list default="true" id="c82e0c58-782e-4f80-9b8a-e39915ddb489" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tableau1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tableau1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="21arm3hUExjwNu6Ndbql9s5PeV0" />
+  <component name="ProjectId" id="22I6ZifTB1ycnmw6bsvBNEgcHVL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../clavier" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\GAME1\Documents\GitHub\PianoTiles" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Megaport\Documents\GitHub\PianoTiles" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PianoTiles/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.index.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d4cfc94b-e50a-4104-9f31-6eebc31097d3" name="Changes" comment="" />
-      <created>1638190195122</created>
+      <changelist id="c82e0c58-782e-4f80-9b8a-e39915ddb489" name="Changes" comment="" />
+      <created>1639512811857</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1638190195122</updated>
-      <workItem from="1638190196266" duration="924000" />
-      <workItem from="1638191135617" duration="5869000" />
-      <workItem from="1638792571015" duration="150000" />
-      <workItem from="1638792731474" duration="9330000" />
-      <workItem from="1639764542446" duration="8635000" />
+      <updated>1639512811857</updated>
+      <workItem from="1639512813154" duration="2457000" />
+      <workItem from="1639763690470" duration="387000" />
+      <workItem from="1639764868667" duration="7458000" />
+      <workItem from="1639842641498" duration="313000" />
+      <workItem from="1639843037778" duration="4348000" />
     </task>
-    <task id="LOCAL-00001" summary="add HTML">
-      <created>1638190236905</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1638190236905</updated>
-    </task>
-    <task id="LOCAL-00002" summary="???">
-      <created>1638190786297</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1638190786297</updated>
-    </task>
-    <task id="LOCAL-00003" summary="???">
-      <created>1638191179300</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1638191179300</updated>
-    </task>
-    <task id="LOCAL-00004" summary="J'ai un lien qui marche">
-      <created>1638191257443</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1638191257443</updated>
-    </task>
-    <task id="LOCAL-00005" summary="J'ai un peu foutu la merde">
-      <created>1638196907120</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1638196907120</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Add BG + Error + detection KB">
-      <created>1638802637949</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1638802637949</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="add HTML" />
-    <MESSAGE value="???" />
-    <MESSAGE value="J'ai un lien qui marche" />
-    <MESSAGE value="J'ai un peu foutu la merde" />
-    <MESSAGE value="Add BG + Error + detection KB" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add BG + Error + detection KB" />
   </component>
 </project>

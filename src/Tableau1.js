@@ -1,5 +1,10 @@
 class Tableau1 extends Phaser.Scene {
 
+    //mes variables
+    variables(){
+    this.startup=false;
+    }
+
 
     preload() {
         //preload fond d'écran
@@ -9,9 +14,12 @@ class Tableau1 extends Phaser.Scene {
         }
         //preload pops ups
         this.load.image('error', 'assets/images/error.png');
+        this.load.image('notepad', 'assets/images/notepad.png');
         this.load.image('avast', 'assets/images/avast.png');
-
-
+        //preload de sons
+        this.load.audio('virale', 'assets/sounds/sound1.mp3')
+        this.load.audio('errorsound', 'assets/sounds/errorsound.mp3')
+        this.load.audio('welcome', 'assets/sounds/welcome.mp3')
     }
 
 
@@ -50,19 +58,43 @@ class Tableau1 extends Phaser.Scene {
         this.creerClavier();
 
 
+
         //mes pops ups
         this.creerPopups();
+
+        //mes sons
+        this.creerSons();
+
+        //variables
+        this.variables();
 
 
     }
 
+    creerSons(){
+        this.virale = this.sound.add('virale', {loop: false});
+        this.virale.volume = 1
+
+        this.errorsou = this.sound.add('errorsound', {loop: false});
+        this.errorsou.volume = 1
+
+        this.welcome = this.sound.add('welcome', {loop: false});
+        this.welcome.volume = 0.4
+    }
+
     creerPopups() {
+        this.notepad = this.add.image(400, 400, 'notepad').setOrigin(0, 0);
+        this.notepad.visible=false
+        this.notepad.alpha=0
+
         this.error = this.add.image(700, 400, 'error').setOrigin(0, 0);
         this.error.visible=false
         this.error.alpha=0
 
+        this.avast = this.add.image(1600, 800, 'avast').setOrigin(0, 0);
+        this.avast.visible=false
+        this.avast.alpha=0
 
-        this.avast = this.add.image(0, 1055, 'avast').setOrigin(0, 0);
     }
 
     creerClavier() {
@@ -128,11 +160,30 @@ class Tableau1 extends Phaser.Scene {
 
         //------------pop-ups---------------
         if (lettre === "a") {
+            if (this.error.visible==false){
+                this.errorsou.play()
+            }
             this.error.visible= !this.error.visible;
             this.CompositionA()
         }
+        if (lettre === "z") {
+            if (this.avast.visible==false){
+                this.virale.play()
+            }
+            this.avast.visible= !this.avast.visible;
+            this.CompositionZ()
+        }
+        if (lettre === "e") {
+            this.notepad.visible= !this.notepad.visible;
+            this.CompositionE()
+        }
     }
     update(){
+
+        if (this.startup==false){
+            this.welcome.play()
+            this.startup=true
+        }
 
             //pour chacune des lettres on va tester si il faut faire des choses ou non
             for (let lettre of this.lettres) {
@@ -161,12 +212,31 @@ class Tableau1 extends Phaser.Scene {
     CompositionA(){
         this.tweens.add({
             targets: this.error,
-            duration: 60,
-            delay: 0,
+            duration: 20,
             alpha: 1,
             repeat: 0,
             yoyo: false,
     });
         this.error.alpha=0
 }
+    CompositionZ() {
+        this.tweens.add({
+            targets: this.avast,
+            duration: 20,
+            alpha: 1,
+            repeat: 0,
+            yoyo: false,
+        });
+        this.avast.alpha = 0
+    }
+    CompositionE() {
+        this.tweens.add({
+            targets: this.notepad,
+            duration: 20,
+            alpha: 1,
+            repeat: 0,
+            yoyo: false,
+        });
+        this.avast.alpha = 0
+    }
 }
