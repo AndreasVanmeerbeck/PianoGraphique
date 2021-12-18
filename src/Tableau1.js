@@ -16,10 +16,14 @@ class Tableau1 extends Phaser.Scene {
         this.load.image('error', 'assets/images/error.png');
         this.load.image('notepad', 'assets/images/notepad.png');
         this.load.image('avast', 'assets/images/avast.png');
+        this.load.image('msn', 'assets/images/msn.png');
+        this.load.image('cc', 'assets/images/cc.png');
+        this.load.image('bar', 'assets/images/bar.png');
         //preload de sons
         this.load.audio('virale', 'assets/sounds/sound1.mp3')
         this.load.audio('errorsound', 'assets/sounds/errorsound.mp3')
         this.load.audio('welcome', 'assets/sounds/welcome.mp3')
+        this.load.audio('msnsou', 'assets/sounds/msn.mp3')
     }
 
 
@@ -78,6 +82,9 @@ class Tableau1 extends Phaser.Scene {
         this.errorsou = this.sound.add('errorsound', {loop: false});
         this.errorsou.volume = 1
 
+        this.msnsou = this.sound.add('msnsou', {loop: false});
+        this.msnsou.volume = 1
+
         this.welcome = this.sound.add('welcome', {loop: false});
         this.welcome.volume = 0.4
     }
@@ -94,6 +101,18 @@ class Tableau1 extends Phaser.Scene {
         this.avast = this.add.image(1600, 800, 'avast').setOrigin(0, 0);
         this.avast.visible=false
         this.avast.alpha=0
+
+        this.msn = this.add.image(1770, 930, 'msn').setOrigin(0, 0);
+        this.msn.visible=false
+        this.msn.alpha=0
+
+        this.cc = this.add.image(1400, 600, 'cc').setOrigin(0, 0);
+        this.cc.visible=false
+        this.cc.alpha=0
+
+        this.bar = this.add.image(1100, 500, 'bar').setOrigin(0, 0);
+        this.bar.visible=false
+        this.bar.alpha=0
 
     }
 
@@ -177,6 +196,21 @@ class Tableau1 extends Phaser.Scene {
             this.notepad.visible= !this.notepad.visible;
             this.CompositionE()
         }
+        if (lettre === "r") {
+            if (this.msn.visible==false){
+                this.msnsou.play()
+            }
+            this.msn.visible= !this.msn.visible;
+            this.CompositionR()
+        }
+        if (lettre === "t") {
+            this.cc.visible= !this.cc.visible;
+            this.CompositionT()
+        }
+        if (lettre === "y") {
+            this.bar.visible= !this.bar.visible;
+            this.CompositionY()
+        }
     }
     update(){
 
@@ -237,6 +271,36 @@ class Tableau1 extends Phaser.Scene {
             repeat: 0,
             yoyo: false,
         });
-        this.avast.alpha = 0
+        this.notepad.alpha = 0
+    }
+    CompositionR() {
+        this.tweens.add({
+            targets: this.msn,
+            duration: 20,
+            alpha: 1,
+            repeat: 0,
+            yoyo: false,
+        });
+        this.msn.alpha = 0
+    }
+    CompositionT() {
+        this.tweens.add({
+            targets: this.cc,
+            duration: 20,
+            alpha: 1,
+            repeat: 0,
+            yoyo: false,
+        });
+        this.cc.alpha = 0
+    }
+    CompositionY() {
+        this.tweens.add({
+            targets: this.bar,
+            duration: 20,
+            alpha: 1,
+            repeat: 0,
+            yoyo: false,
+        });
+        this.bar.alpha = 0
     }
 }
