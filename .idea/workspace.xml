@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c82e0c58-782e-4f80-9b8a-e39915ddb489" name="Changes" comment="more sounds,popups and starcraft">
+    <list default="true" id="c82e0c58-782e-4f80-9b8a-e39915ddb489" name="Changes" comment="Version finale et commentée">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tableau1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tableau1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
       <workItem from="1639764868667" duration="7458000" />
       <workItem from="1639842641498" duration="313000" />
       <workItem from="1639843037778" duration="7913000" />
-      <workItem from="1640004030061" duration="12644000" />
+      <workItem from="1640004030061" duration="13319000" />
     </task>
     <task id="LOCAL-00001" summary="added sound for every pop ups and start up, also notepad">
       <created>1639847700416</created>
@@ -59,7 +58,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639854072583</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Version finale et commentée">
+      <created>1640017113596</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1640017113596</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,6 +86,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added sound for every pop ups and start up, also notepad" />
     <MESSAGE value="more sounds,popups and starcraft" />
-    <option name="LAST_COMMIT_MESSAGE" value="more sounds,popups and starcraft" />
+    <MESSAGE value="Version finale et commentée" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version finale et commentée" />
   </component>
 </project>
