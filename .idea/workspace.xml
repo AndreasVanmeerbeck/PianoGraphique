@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c82e0c58-782e-4f80-9b8a-e39915ddb489" name="Changes" comment="Version finale et commentée">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c82e0c58-782e-4f80-9b8a-e39915ddb489" name="Changes" comment="Version finale et commentée" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +40,7 @@
       <workItem from="1639764868667" duration="7458000" />
       <workItem from="1639842641498" duration="313000" />
       <workItem from="1639843037778" duration="7913000" />
-      <workItem from="1640004030061" duration="13319000" />
+      <workItem from="1640004030061" duration="13626000" />
     </task>
     <task id="LOCAL-00001" summary="added sound for every pop ups and start up, also notepad">
       <created>1639847700416</created>
@@ -65,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640017113596</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Version finale et commentée">
+      <created>1640017512761</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640017512761</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
