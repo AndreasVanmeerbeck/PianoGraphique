@@ -77,37 +77,37 @@ class Tableau1 extends Phaser.Scene {
 
     creerSons(){
         this.virale = this.sound.add('virale', {loop: false});
-        this.virale.volume = 0.3
+        this.virale.volume = 0.1
 
         this.errorsou = this.sound.add('errorsound', {loop: false});
-        this.errorsou.volume = 0.3
+        this.errorsou.volume = 0.1
 
         this.msnsou = this.sound.add('msnsou', {loop: false});
-        this.msnsou.volume = 0.3
+        this.msnsou.volume = 0.1
 
         this.welcome = this.sound.add('welcome', {loop: false});
-        this.welcome.volume = 0.2
+        this.welcome.volume = 0.1
 
         this.marsou = this.sound.add('marsou', {loop: false});
-        this.marsou.volume = 0.3
+        this.marsou.volume = 0.1
 
         this.mardea = this.sound.add('mardea', {loop: false});
-        this.mardea.volume = 0.4
+        this.mardea.volume = 0.1
 
         this.DTsou = this.sound.add('DTsou', {loop: false});
-        this.DTsou.volume = 0.3
+        this.DTsou.volume = 0.1
 
         this.Gspawn = this.sound.add('Gspawn', {loop: false});
-        this.Gspawn.volume = 0.3
+        this.Gspawn.volume = 0.1
 
         this.nukealert = this.sound.add('nukealert', {loop: false});
-        this.nukealert.volume = 0.3
+        this.nukealert.volume = 0.1
 
         this.nukelaunch = this.sound.add('nukelaunch', {loop: false});
-        this.nukelaunch.volume = 0.3
+        this.nukelaunch.volume = 0.1
 
         this.nukestrike = this.sound.add('nukestrike', {loop: false});
-        this.nukestrike.volume = 0.3
+        this.nukestrike.volume = 0.1
     }
 
     creerPopups() {
